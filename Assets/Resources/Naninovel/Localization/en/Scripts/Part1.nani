@@ -1,0 +1,25 @@
+; Ukrainian <uk> to English <en> localization document for `Part1` naninovel script
+
+# 84a9faa7
+; Io: Привіт я Іо. допоможеш мені  розгребти ці папери?
+Io: Hello i io. Will you help me to rake these papers?
+
+# b8f6a48c
+; @choice Допомогти goto:.game
+@choice Help goto:.game
+
+# da6d9f51
+; @choice "Не допомагати" goto:.Fired
+@choice “Not help” goto:.Fired
+
+# e729b7bd
+; Io: Ого ти вже все, тепер віднеси їх для Аянамі вона чекає тебе на вулиці.
+Io: You're all, now take them to Ayanami she is waiting for you on the street.
+
+# 953ae58b
+; @print "Тебе звільнили в перший же день, яка сумна новина"
+@print "You were released on the first day what is sad news"
+
+# 4e254ac5
+; @choice "Вийти в меню" goto:.title
+@choice “Go out on the menu” goto:.title

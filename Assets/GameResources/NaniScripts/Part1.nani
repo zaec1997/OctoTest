@@ -1,0 +1,39 @@
+@hideAll time:0
+@back  id:Conference time:1 wait:false
+@char I time:1
+@set Quest1="Complete"
+Io: Привіт я Іо. допоможеш мені  розгребти ці папери?
+@set Quest2="Get"
+@choice Допомогти goto:.game
+@choice "Не допомагати" goto:.Fired
+@stop
+
+
+# game
+@gamemem
+
+
+@stop
+# AfterGame
+
+@set Quest2="Complete"
+Io: Ого ти вже все, тепер віднеси їх для Аянамі вона чекає тебе на вулиці.
+@set Quest3="Get"
+@addItem Docs
+@hideAll
+@goto Part2
+
+
+
+
+
+
+# Fired
+@hideAll
+@print "Тебе звільнили в перший же день, яка сумна новина"
+@choice "Вийти в меню" goto:.title
+@stop
+
+
+# title
+@title

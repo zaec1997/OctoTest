@@ -1,0 +1,17 @@
+; Ukrainian <uk> to English <en> localization document for `MapConference` naninovel script
+
+# daf2c735
+; "error"
+“ERROR”
+
+# b610699a
+;     I: Дякую за цукерку 
+    I: Thank you for the candy 
+
+# d76d9afb
+;     I: Жмот. Не буде в тебе премії
+    I: Zhmot. Won't have a prize
+
+# f8398770
+;     Hero: Тут зараз нікого немає.
+    Hero: There is no one here.

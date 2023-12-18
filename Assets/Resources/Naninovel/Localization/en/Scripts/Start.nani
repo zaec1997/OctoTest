@@ -1,0 +1,29 @@
+; Ukrainian <uk> to English <en> localization document for `Start` naninovel script
+
+# e7eeaaf0
+; A: Привіт ти тут новенький? Як я можу до тебе звертатись?
+A: Hi are you new here? How can I contact you?
+
+# 58307d14
+; @input Hero summary:"Введіть Ім'я"
+@input Hero summary:"Enter the name"
+
+# 5ac11220
+; Hero: Привіт, мене звати {Hero}.
+Hero: Hi, my name is {hero}.
+
+# 3e34fbb
+; A: Дуже рада з тобою познайомитись. Я Аянамі.
+A: I am very glad to meet you. I'm Ayanami.
+
+# ada36c84
+; A: Мені сказали як ти прийдеш, щоб ти пішов до конференс залу поговорити з Іо.
+A: I was told how you would come for you to go to the conference of the hall to talk to IO.
+
+# 73e5e5f9
+; Hero: Ок.
+Hero: OK.
+
+# ed1e44a4
+; @choice "Піти в конференс зал"
+@choice “Go to the confession hall”

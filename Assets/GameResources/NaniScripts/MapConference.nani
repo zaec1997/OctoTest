@@ -1,0 +1,29 @@
+@if expression:"GiveIo && End"
+@goto .GoodIo  
+@elseIf expression:"!GiveIo && End"
+@goto .Bad 
+@elseIf !End
+@goto .Empty 
+@else
+"error"
+@stop
+
+# GoodIo
+@hideAll
+@back  id:Conference
+@char I.Happy
+    I: Дякую за цукерку 
+@stop
+
+# Bad
+@hideAll
+@back  id:Conference
+@char I.Angry
+    I: Жмот. Не буде в тебе премії
+@stop
+
+# Empty
+@hideAll
+@back  id:Conference
+    Hero: Тут зараз нікого немає.
+@return 

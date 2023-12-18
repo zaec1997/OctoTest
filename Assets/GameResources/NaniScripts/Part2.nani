@@ -1,0 +1,12 @@
+@back  id:Exteriour
+@char A pos:60,0
+A: Приніс документи?
+Hero: Так, Тримай.
+@removeItem Docs
+@set Quest3="Complete"
+
+A: Дякую, тримай цукерки, це на всіх.
+@lock Exteriour
+@addItem Candy
+@hideAll
+@goto Part3

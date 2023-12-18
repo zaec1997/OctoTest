@@ -1,0 +1,14 @@
+@hideAll
+@back  id:Office time:1
+@set Quest4="Complete"
+@char A look:Left pos:80,0
+@char I look:Right pos:20,0
+Hero: Ось ви куди пропали. 
+A: Дай мені цукерку.
+I: Ні, дай мені цукерку.
+
+@set Quest5="Get"
+@choice "Віддати Іо" goto:EndGame.GiveIo
+@choice "Віддати Аянамі" goto:EndGame.GiveAyanami
+@choice "Залишити собі" goto:EndGame.GiveSelf
+@stop

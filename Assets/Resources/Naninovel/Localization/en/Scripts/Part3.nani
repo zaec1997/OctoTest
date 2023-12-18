@@ -1,0 +1,9 @@
+; Ukrainian <uk> to English <en> localization document for `Part3` naninovel script
+
+# 7d2b84e
+; Hero: Хмм, тут нікого немає. 
+Hero: Hmm, no one here. 
+
+# ac4d1c38
+; @choice "Піти в пошукати в офісі" goto:Part4
+@choice "Go to search in the office" goto:Part4

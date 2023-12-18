@@ -1,0 +1,24 @@
+@unlock Office
+@unlock Conference
+@unlock Exteriour
+@set End=false
+@set GiveIo=false
+@set GiveA=false
+@set GiveSelf=false
+
+
+@back  id:Office time:1 wait:false
+@char A.Happy look:Left pos:60,0 time:1
+A: Привіт ти тут новенький? Як я можу до тебе звертатись?
+@input Hero summary:"Введіть Ім'я"
+@stop
+Hero: Привіт, мене звати {Hero}.
+A: Дуже рада з тобою познайомитись. Я Аянамі.
+A: Мені сказали як ти прийдеш, щоб ти пішов до конференс залу поговорити з Іо.
+@set Quest1="Get"
+Hero: Ок.
+
+@choice "Піти в конференс зал"
+@stop
+
+@goto Part1

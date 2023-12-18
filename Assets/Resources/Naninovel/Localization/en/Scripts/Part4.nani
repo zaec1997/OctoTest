@@ -1,0 +1,25 @@
+; Ukrainian <uk> to English <en> localization document for `Part4` naninovel script
+
+# 89263d4f
+; Hero: Ось ви куди пропали. 
+Hero: That's where you are gone. 
+
+# 2c94f117
+; A: Дай мені цукерку.
+A: Give me a candy.
+
+# ddc0afc6
+; I: Ні дай мені цукерку.
+I: No give me a candy.
+
+# 46acf4a5
+; @choice "Віддати Іо" goto:EndGame.GiveIo
+@choice “Give off io” goto:EndGame.GiveIo
+
+# 2bc41690
+; @choice "Віддати Аянамі" goto:EndGame.GiveAyanami
+@choice “Give to ayanami” goto:EndGame.GiveAyanami
+
+# 19ea148f
+; @choice "Залишити собі" goto:EndGame.GiveSelf
+@choice “Leave yourself” goto:EndGame.GiveSelf

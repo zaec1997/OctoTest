@@ -1,0 +1,6 @@
+@back  id:Conference
+Hero: Хмм, тут нікого немає. 
+@set Quest4="Get"
+@choice "Піти в пошукати в офісі" goto:Part4
+@stop
+@hideAll

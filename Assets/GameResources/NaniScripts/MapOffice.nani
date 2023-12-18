@@ -1,0 +1,29 @@
+@if expression:"GiveA && End"
+@goto .GoodA 
+@elseIf expression:"!GiveA && End"
+@goto .Bad 
+@elseIf !End
+@goto .Empty 
+@else
+"error"
+@stop
+
+# GoodA
+@hideAll
+@back  id:Office
+@char A.Happy
+    I: Дякую за цукерку 
+@stop
+
+# Bad
+@hideAll
+@back  id:Office
+@char A.Angry
+    I: Не говори зі мною
+@stop
+
+# Empty
+@hideAll
+@back  id:Office
+    Hero: Тут зараз нікого немає.
+@return 

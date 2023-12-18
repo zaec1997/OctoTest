@@ -1,0 +1,37 @@
+# GiveIo
+@set Quest5="Complete"
+@set GiveIo=true
+@set GiveA=false
+@char Io.Happy
+Io: Дякую, випишу премію тобі за це.
+@char A.Angry
+A: А дав би мені цукерку я б тобі теж дала.
+@removeItem Candy
+@hide I
+@set End="true"
+@stop
+
+# GiveAyanami
+@set Quest5="Complete"
+@set GiveIo=false
+@set GiveA=true
+Io: Не буде в тебе премії.
+A: Ммм,дякую за цукерку. Зайдеш до мене ввечері.
+@hide I
+@removeItem Candy
+@set EndChoice=A
+@set End="true"
+@stop
+
+# GiveSelf
+@set Quest5="Complete"
+@set GiveIo=false
+
+@set GiveA=false
+@char A.Angry
+A: А дав би мені цукерку я б тобі теж дала.
+Io: Не буде в тебе премії.
+
+@hide I
+@set End="true"
+@stop
